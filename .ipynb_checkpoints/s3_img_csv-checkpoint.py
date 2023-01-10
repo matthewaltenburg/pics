@@ -67,8 +67,8 @@ def detect_labels(photo, bucket):
 
 def main():
     print ("reading data from S3, enter bucket name")
-  #  source_bucketname = input()
-    source_bucketname = "cemf-suan"
+    source_bucketname = input()
+    # source_bucketname = "cemf-suan"
     print ("tranfering files to S3, enter destination bucket name")
     dest_bucketname = input()
     dest_bucketname = "sbbridledestbucket"
